@@ -1,12 +1,13 @@
-# UNFILTER YOURSELF — GitHub Pages Website
+# UNFILTER YOURSELF — GitHub Pages website with direct contact form
 
-Upload the contents of this folder (not the folder itself) to your GitHub Pages repository root. Set Pages to deploy from your main branch/root, or use your existing Pages workflow.
+Upload the **contents** of this folder into the root of your existing GitHub Pages repository, replacing the previous index.html and script.js. Include thanks.html, styles.css and assets/brand-art.png. Do not change DNS or custom domain.
 
-## Before publishing
-1. **Required:** Open `script.js` and set `CONTACT_EMAIL` to your actual coaching inquiry email. The form uses the visitor's email application (mailto), not a backend. Without this setting it clearly shows a setup notice and will not send inquiries. For reliable forms without a visitor email app, integrate a form provider later.
-2. Confirm launch prices: $125 individual/60 min; $195 couples/90 min; $450 individual four-session program; $60/person group. These are proposed except the group price you specified.
-3. Replace the About section placeholder with your actual bio and credentials. Do not imply licensed mental health treatment.
-4. Decide group dates and availability before accepting registrations. The current group CTA is an interest inquiry, not a paid checkout.
-5. Consider replacing the Google Fonts import with self-hosted fonts if you want fewer external dependencies.
+## IMPORTANT: Activate the form
+The contact form uses FormSubmit (third-party hosted form processing), which is compatible with GitHub Pages. On the first submission, FormSubmit typically emails leona@unfilteryourself.com to verify/activate the address. **Open that activation email and confirm** before relying on incoming inquiries. Send a test inquiry yourself and verify that it arrives and redirects to https://www.unfilteryourself.com/thanks.html. Check spam if necessary. FormSubmit may show a CAPTCHA and may change its service behavior; no delivery guarantee is possible without testing.
 
-The hero uses the image generated for your brand, bundled locally in `assets/brand-art.png`. All other files are local, except Google Fonts.
+The form submits name, email, preferred contact method, service, and message to FormSubmit. Do not ask clients to share sensitive medical information. Review FormSubmit's privacy terms before using it for client communications. If you need stronger privacy controls, switch to a provider with a data-processing agreement and appropriate compliance features.
+
+## Before public launch
+- Confirm proposed pricing ($125 individual, $195 couples, $450 package); $60 group was confirmed.
+- Replace the About placeholder with your actual bio/credentials.
+- Group inquiries are not paid reservations.
